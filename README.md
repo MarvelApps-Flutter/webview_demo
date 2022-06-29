@@ -11,13 +11,6 @@ A new flutter app for demonstrating WebView.
   </tr>
  </table>
 
-<table>
-  <tr>
-    <td><img src="https://github.com/MarvelApps-Flutter/webview_demo/blob/dev/screenshots/android/android4.png" height="480px"></td>
-    
-  </tr>
- </table>
-
 </br>
 
 # IOS Screenshots
