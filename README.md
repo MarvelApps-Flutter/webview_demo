@@ -38,11 +38,8 @@ A new flutter app for demonstrating WebView.
  </table>
  
  # Working Model
- <table>
-  <tr>
-    <td><img src="https://github.com/MarvelApps-Flutter/webview_demo/blob/dev/working_demo/webview_demo.gif"></td>
+
+  <img src="https://github.com/MarvelApps-Flutter/webview_demo/blob/dev/working_demo/webview_demo.gif">
     
-  </tr>
- </table>
  
  
