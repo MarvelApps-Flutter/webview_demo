@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter_module/constants/image_constants.dart';
 import 'package:webview_flutter_module/constants/text_constants.dart';
-import 'package:webview_flutter_module/screens/successive_webview.dart';
+import 'package:webview_flutter_module/screens/webview_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   SplashScreen({Key? key}) : super(key: key);
@@ -46,10 +46,8 @@ class SplashScreenState extends State<SplashScreen>
 
   Future wait() async {
     await Future.delayed(const Duration(seconds: 6));
-    Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-            builder: (context) => const SuccessiveWebsiteScreen()));
+    Navigator.pushReplacement(context,
+        MaterialPageRoute(builder: (context) => const WebViewScreen()));
   }
 
   @override
