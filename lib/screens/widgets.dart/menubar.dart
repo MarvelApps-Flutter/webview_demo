@@ -113,7 +113,7 @@ class _MenuState extends State<Menu> {
                   req.onload = function() {
                     if (req.status == 200) {
                       let response = JSON.parse(req.responseText);
-                      SnackBar.postMessage("IP Address: " + "*************");
+                      SnackBar.postMessage("IP Address: " + response.ip);
                     } else {
                       SnackBar.postMessage("Error: " + req.status);
                     }
